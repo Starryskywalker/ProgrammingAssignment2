@@ -4,6 +4,7 @@
 ## The first function, makeCacheMatrix creates a special "matrix" object, which
 ## is actually a list containing a function to
 
+
 ## set the value of the matrix
 ## get the value of the matrix
 ## set the value of the inverse of given matrix
@@ -23,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
         list(set = set, get = get,
              setInv = setInv,
              getInv = getInv)
-        
+
 }
 
 
